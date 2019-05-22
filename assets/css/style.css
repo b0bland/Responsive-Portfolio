@@ -108,6 +108,9 @@ footer {
   background: #666666;
   border-top: 8px solid #4aaaa5;
   height: 50px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 h3, h2 {
@@ -231,6 +234,37 @@ input[type=submit] {
 
   .indexmain {
     width: 90%;
-    
   }
+}
+
+@media screen and (max-width: 640px) {
+
+  #masthead {
+    position: static;
+  }
+
+  #logo {
+    position: relative;
+    top: -30px;
+    width: 100%;
+    display: inline-block;
+  }
+
+  nav {
+    position: relative;
+    top: -15px;
+    text-align: center;
+    float: none;
+  }
+
+  .indexmain {
+    padding-top: 0px !important;
+    margin-bottom: 50px;
+  }
+
+
+  .auth-image {
+    width: 100%;
+  }
+
 }
