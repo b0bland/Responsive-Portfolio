@@ -228,6 +228,12 @@ input[type=submit] {
     left: 5%;
   }
 
+  .contactmain {
+    width: 70%;
+    position: fixed;
+    left: 5%;   
+  }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -235,6 +241,11 @@ input[type=submit] {
   .indexmain {
     width: 90%;
   }
+
+  .contactmain {
+    width: 90%;
+  }
+  
 }
 
 @media screen and (max-width: 640px) {
