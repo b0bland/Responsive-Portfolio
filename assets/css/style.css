@@ -234,6 +234,12 @@ input[type=submit] {
     left: 5%;   
   }
 
+  .portmain {
+    width: 84%;
+    position: fixed;
+    left: 5%;  
+  }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -246,6 +252,9 @@ input[type=submit] {
     width: 90%;
   }
   
+  .portmain {
+    width: 90%;    
+  }
 }
 
 @media screen and (max-width: 640px) {
@@ -274,6 +283,11 @@ input[type=submit] {
   }
 
   .contactmain {
+    padding-top: 0px !important;
+    margin-bottom: 50px;
+  }
+
+  .portmain {
     padding-top: 0px !important;
     margin-bottom: 50px;
   }
